@@ -1,0 +1,56 @@
+.App{
+  text-align: center;
+}
+
+.calculator{
+  border: 1px solid black;
+  width:400px;
+  border-radius:10px;
+  margin: 50px auto;
+  padding:20px;
+  box-shadow:10 10 10px rgba(0, 0, 0, 0.5);
+  background-color:mediumspringgreen
+}
+
+.display{
+  background-color:orange;
+  height: 70px;
+  margin-bottom: 20px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.buttons{
+  display:grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap:10px;
+
+}
+
+button{
+cursor: pointer;
+padding:20px;
+font-size:18px;
+background-color:#aeaee5;
+
+
+}
+
+
+
+button:hover{
+  background-color: orange;
+}
+
+button:active {
+  background-color: red;
+}
+
+
+
+
+
+
+
+
